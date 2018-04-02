@@ -97,6 +97,11 @@
 					5A44E97B206CBF6900EBFCF9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -277,6 +282,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MDZ35D8R56;
 				INFOPLIST_FILE = BLE_peripheral/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zerozero.BLE-peripheral";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MDZ35D8R56;
 				INFOPLIST_FILE = BLE_peripheral/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zerozero.BLE-peripheral";
 				PRODUCT_NAME = "$(TARGET_NAME)";
